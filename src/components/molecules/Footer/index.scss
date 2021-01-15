@@ -1,0 +1,17 @@
+@import '../../../index.scss';
+
+footer {
+    background-color: $light-grey;
+    position: absolute;
+    width: 100%;
+
+    a {
+        color: $grey;
+    }
+
+    ul {
+        li {
+            border-color: $grey;
+        }
+    }
+}

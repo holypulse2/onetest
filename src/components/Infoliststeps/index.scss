@@ -1,0 +1,32 @@
+@import '../../index.scss';
+
+.infoliststeps {
+    &__step {
+        color: $blue;
+    }
+
+    h2 {
+        color: $blue;
+    }
+    
+    p {
+        color: $grey;
+        
+    }
+
+    &__stepText {
+         
+        color: $grey;
+        font-size: 16px;
+        max-width: 200px;
+        margin: auto;
+    }
+
+    &__image {
+        img  {
+            width: 151px;
+        }  
+    }
+
+}
+
